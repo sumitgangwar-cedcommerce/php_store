@@ -1,0 +1,49 @@
+#dash_main{
+    /* border:solid 2px; */
+    width:100%;
+    height:100%;
+    
+    top:0;
+    left:0;
+    
+}
+#menu{
+    border:solid 2px;
+    border-bottom: none;
+    width:100%;
+    /* height:70px; */
+    font-size: 5vw;
+    
+}
+#side_bar{
+    /* margin-top: 10%; */
+    width:100vh;
+    width:100%;
+    border:solid 2px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.s_item{
+    /* border:solid; */
+    /* margin-top: 10%; */
+    margin-left: 8%;
+    padding: 2%;
+    font-size: 1.8vw;
+}
+#content{
+    /* border: solid 2px; */
+    text-align: center;
+    /* border:solid 2px; */
+    width: 100%;
+    /* height: 200%; */
+    top:20%;
+}
+.s_item:hover {
+    background-color: black;
+    color:white
+}
+#Home{
+    background-color: black;
+    color: white;
+}
+
